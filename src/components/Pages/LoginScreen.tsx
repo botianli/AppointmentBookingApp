@@ -22,8 +22,7 @@ const LoginScreen = (props) => {
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
       
-      <Text>User is {isLoggedIn ? 'logged in' : 'not logged in'}</Text>
-    
+   
       <TextInput
         style={[styles.input]}
         placeholder="Email"
